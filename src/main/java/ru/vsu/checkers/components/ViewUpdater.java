@@ -1,6 +1,6 @@
 package ru.vsu.checkers.components;
 
-import ru.vsu.checkers.model.Game;
+import ru.vsu.checkers.model.logic.Game;
 
 @FunctionalInterface
 public interface ViewUpdater {

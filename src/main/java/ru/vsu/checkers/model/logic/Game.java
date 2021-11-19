@@ -1,4 +1,4 @@
-package ru.vsu.checkers.model;
+package ru.vsu.checkers.model.logic;
 
 import lombok.Data;
 import ru.vsu.checkers.components.PlayerMoveValidator;
@@ -12,7 +12,7 @@ import java.util.Set;
 public class Game {
     private Cell centerCell;
 
-    private ChineseBoard board;
+    private Board board;
 
     private Map<Player, Set<Figure>> playerFigures;
 

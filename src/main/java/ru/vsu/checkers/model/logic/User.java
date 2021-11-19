@@ -1,4 +1,4 @@
-package ru.vsu.checkers.model;
+package ru.vsu.checkers.model.logic;
 
 import lombok.Data;
 

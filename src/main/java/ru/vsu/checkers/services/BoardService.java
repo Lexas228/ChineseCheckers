@@ -1,8 +1,8 @@
 package ru.vsu.checkers.services;
 
-import ru.vsu.checkers.model.ChineseBoard;
-import ru.vsu.checkers.model.Figure;
-import ru.vsu.checkers.model.Player;
+import ru.vsu.checkers.model.logic.ChineseBoard;
+import ru.vsu.checkers.model.logic.Figure;
+import ru.vsu.checkers.model.logic.Player;
 
 import java.util.Map;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package ru.vsu.checkers.model;
+package ru.vsu.checkers.model.logic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,4 +10,8 @@ import lombok.Setter;
 public class Figure {
     private Color myColor;
 
+    @Override
+    public String toString(){
+        return myColor.getColor() + "o" + Color.getReset();
+    }
 }

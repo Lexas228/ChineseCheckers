@@ -1,11 +1,12 @@
 package ru.vsu.checkers.services;
 
-import ru.vsu.checkers.model.Cell;
-import ru.vsu.checkers.model.Figure;
-import ru.vsu.checkers.model.Game;
+import ru.vsu.checkers.model.logic.Cell;
+import ru.vsu.checkers.model.logic.Game;
+import ru.vsu.checkers.model.logic.Move;
 
 import java.util.List;
+import java.util.Set;
 
 public interface FigureService {
-    List<Cell> getPossibleMoves(Figure figure, Game game);
+    Set<Cell> getPossibleMoves(Cell cell, Game game);
 }

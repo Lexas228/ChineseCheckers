@@ -1,8 +1,8 @@
 package ru.vsu.checkers.components;
 
-import ru.vsu.checkers.model.Game;
-import ru.vsu.checkers.model.Move;
-import ru.vsu.checkers.model.Player;
+import ru.vsu.checkers.model.logic.Game;
+import ru.vsu.checkers.model.logic.Move;
+import ru.vsu.checkers.model.logic.Player;
 import ru.vsu.checkers.services.FigureService;
 
 public class UserMoveValidator implements PlayerMoveValidator{
